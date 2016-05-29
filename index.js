@@ -12,6 +12,6 @@ module.exports = function (url) {
 			throw new Error('Invalid domain');
 		}
 
-		return res.body.status_code === 1;
+		return res.body.status_code === 1 ? true : res.body.response_code;
 	});
 };
