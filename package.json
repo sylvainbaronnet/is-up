@@ -30,7 +30,7 @@
     "offline"
   ],
   "dependencies": {
-    "got": "^5.0.0"
+    "got": "^6.7.1"
   },
   "devDependencies": {
     "ava": "*",
